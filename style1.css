@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+header{
+    background-color: darkcyan ;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px
+}
+main{
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+footer{
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
